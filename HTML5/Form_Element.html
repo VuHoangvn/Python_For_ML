@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Allow Multiple Seletcions</h2>
+<p>Use the multiple attribute to allow the user to select more than one value.</p>
+
+<form action="/action_page.php">
+	<select name="cars" size="4" multiple>
+		<option value="volvo">Volvo</option>
+		<option value="Saab">Saab</option>
+		<option value="Fiat">Fiat</option>
+		<option value="Audi">Audi</option>
+	</select>
+	<br><br>
+	<input type="submit">
+</form>
+<p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+<textarea name="message" style="width:200px; height:600px">
+The cat was playing in the garden.
+</textarea>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist> 
+</form>
+
+</body>
+</html>
